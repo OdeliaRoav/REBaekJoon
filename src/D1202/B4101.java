@@ -25,8 +25,6 @@ public class B4101 {
 
         }
 
-
-
         // TODO: Solve
     }
 }
