@@ -1,4 +1,5 @@
-import java.io.*;
+package D1208;
+
 import java.util.*;
 
 public class A10986_1 {
