@@ -19,19 +19,18 @@ public class A2018 {
         while(end != N){
             if(sum == N){
                 count ++;
-                end++;
-                sum = sum +end;
+                end ++;
+                sum = sum + end;
             }
-            else if (sum > N){
+            else if(sum > N){
                 sum = sum - start;
-                start++;
+                start ++;
             }
             else if(sum < N){
-                end++;
-                sum = sum + end;
+                end ++;
+                sum = sum +end;
             }
         }
         System.out.println(count);
-
     }
 }
