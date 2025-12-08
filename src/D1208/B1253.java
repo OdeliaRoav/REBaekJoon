@@ -31,10 +31,10 @@ public class B1253 {
                         count ++;
                         break;
                     }
-                    else if(i == q){
+                    else if(i == q){ //이 조합이 안되기 때문에 다음 i로 좋은 수를 배합
                         i++;
                     }
-                    else if (j == q){
+                    else if (j == q){ //이 조합이 안되기 때문에 다음 i로 좋은 수를 배합
                         j--;
                     }
                 }
