@@ -24,20 +24,21 @@ public class A1940 {
         int j = N-1;
         int count = 0;
 
-        while(i<j){
-            if(A[i] + A[j] == M){
-                count ++;
+        while (i<j){
+            if(A[i]+A[j] == M){
+                count++;
                 i++;
                 j--;
             }
-            else if(A[i] + A[j] > M){
+            else if(A[i]+A[j] > M){
                 j--;
             }
-            else if(A[i] + A[j] < M){
+            else if(A[i]+A[j] < M){
                 i++;
             }
-
         }
+
+
         System.out.println(count);
 
     }
