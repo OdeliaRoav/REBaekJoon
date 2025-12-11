@@ -16,6 +16,7 @@ public class B11003 {
         Deque<Node> myDeque = new LinkedList<>();
 
         st = new StringTokenizer(br.readLine());
+
         for(int i = 0; i<N; i++) {
             int now = Integer.parseInt(st.nextToken());
             while (!myDeque.isEmpty() && myDeque.getLast().value > now) {
