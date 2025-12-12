@@ -15,42 +15,48 @@ public class A12891 {
         int S = Integer.parseInt(st.nextToken());
         int P = Integer.parseInt(st.nextToken());
 
-        int result = 0;
-        checkSecret = 0;
         myArr = new int[4];
         checkArr = new int[4];
+        checkSecret = 0;
+        int result = 0;
+
         char A[] = new char[S];
         A = br.readLine().toCharArray();
 
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i<4; i++){
             checkArr[i] = Integer.parseInt(st.nextToken());
-            if (checkArr[i] == 0) {
+            if(checkArr[i] == 0 ){
                 checkSecret++;
             }
-        }
-
-        for(int i = 0; i<P; i++){
-            Add(A[i]);
         }
         if(checkSecret == 4){
             result++;
         }
 
-        for(int i = P; i<S; i++){
-            int j = i-P;
+        for(int i = 0; i < P; i++) {
             Add(A[i]);
-            remove(A[j]);
+        }
+
+        if(checkSecret == 4){
+            result++;
+        }
+
+        for(int i = P; i < S; i++){
+            int j = i - P;
+            Add(A[i]);
+            Remove(A[j]);
+
             if(checkSecret == 4){
                 result++;
             }
-
         }
         System.out.println(result);
 
+
     }
-    private static void Add(char C){
-        switch(C){
+    private static void Add(char c){
+        switch(c){
             case 'A':
                 myArr[0]++;
                 if(myArr[0] == checkArr[0]){
@@ -76,10 +82,10 @@ public class A12891 {
                 }
                 break;
         }
-    }
 
-    private static void remove(char C){
-        switch(C){
+    }
+    private static void Remove(char c){
+        switch(c){
             case 'A':
                 if(myArr[0] == checkArr[0]){
                     checkSecret--;
@@ -106,4 +112,5 @@ public class A12891 {
                 break;
         }
     }
+
 }
