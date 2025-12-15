@@ -15,10 +15,9 @@ public class A2798 {
         int A[] = new int[N];
 
         st = new StringTokenizer(br.readLine());
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             A[i] = Integer.parseInt(st.nextToken());
         }
-
         int max = 0;
 
         for(int i = 0; i < N-2; i++){
@@ -30,14 +29,14 @@ public class A2798 {
                         max = sum;
                     }
 
-                    if(max<sum && sum<M){
+                    if(max < sum && sum < M){
                         max = sum;
                     }
-
                 }
             }
         }
         System.out.println(max);
 
     }
+
 }
