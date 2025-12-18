@@ -14,6 +14,8 @@ public class A11003 {
         int L = Integer.parseInt(st.nextToken());
         Deque<Node> myDeque = new LinkedList<Node>();
 
+
+        //Stack이든 Queue든 Deque든 굳이 수열 안 만들어도 되는 풀이가 있으니깐 잘 생각해보기
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N; i++){
             int now = Integer.parseInt(st.nextToken());
