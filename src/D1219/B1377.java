@@ -23,7 +23,7 @@ public class B1377 {
     }
 
 
-    class mData implements Comparable<mData> {
+    static class mData implements Comparable<mData> {
         int value;
         int index;
 
