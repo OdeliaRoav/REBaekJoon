@@ -10,8 +10,8 @@ public class A11286 {
         int N = Integer.parseInt(br.readLine());
 
         PriorityQueue<Integer> MyQueue = new PriorityQueue<>((o1, o2) ->{
-            int first = o1;
-            int second = o2;
+            int first = Math.abs(o1);
+            int second = Math.abs(o2);
 
             if(first == second){
                 return o1 > o2 ? 1 : -1;
