@@ -16,7 +16,7 @@ public class B17952 {
         Stack<Integer> myStack = new Stack<>();
 
         for(int i = 0; i < N; i++){
-            int count =
+            int count;
         }
 
 
