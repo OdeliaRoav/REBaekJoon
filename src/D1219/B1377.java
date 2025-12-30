@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class B1377 {
-
+    //버블 소트는 pass당 작은 애는 왼쪽으로 한 칸, 큰 애는 오른쪽으로 제한 없음
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
@@ -20,8 +20,10 @@ public class B1377 {
             }
         }
         System.out.println(max+1);
+        //버블 소트에서는 정렬이 끝나도 확인 pass가 존재한다.
     }
 
+    
 
     static class mData implements Comparable<mData> {
         int value;
