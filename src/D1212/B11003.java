@@ -31,6 +31,7 @@ public class B11003 {
         bw.flush();
         bw.close();
     }
+
     
     static class Node{
         int value;
