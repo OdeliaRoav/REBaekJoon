@@ -32,7 +32,6 @@ public class B11003 {
         bw.close();
     }
 
-
     static class Node{
         int value;
         int index;
