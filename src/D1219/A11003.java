@@ -35,6 +35,7 @@ public class A11003 {
 
     }
 
+    
     static class Node{
         int value;
         int index;
