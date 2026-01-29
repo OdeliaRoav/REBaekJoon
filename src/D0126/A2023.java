@@ -7,6 +7,7 @@ public class A2023 {
 
     public static void main(String[] args) throws Exception {
 
+        
 
     }
 }
