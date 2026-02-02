@@ -21,7 +21,6 @@ public class A15649 {
         backtracking(0);
 
     }
-
     static void backtracking(int length) {
         if(length == M){
             printArray();
