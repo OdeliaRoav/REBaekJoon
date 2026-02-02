@@ -1,0 +1,12 @@
+package D0203;
+
+import java.io.*;
+import java.util.*;
+
+public class B15651 {
+
+    public static void main(String[] args) throws Exception {
+
+
+    }
+}
