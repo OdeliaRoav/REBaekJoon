@@ -38,7 +38,6 @@ public class B15657 {
             backtracking(length + 1, i);
         }
     }
-
     static void printArray(){
         for(int i = 0; i < M; i++){
             System.out.print(S[i] + " ");
