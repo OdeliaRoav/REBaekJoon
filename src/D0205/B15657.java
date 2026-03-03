@@ -39,6 +39,7 @@ public class B15657 {
         }
     }
     
+    
     static void printArray(){
         for(int i = 0; i < M; i++){
             System.out.print(S[i] + " ");
