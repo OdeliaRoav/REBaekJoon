@@ -27,8 +27,6 @@ public class B15657 {
         backtracking(0, 0);
 
     }
-
-
     static void backtracking(int length, int start){
         if(length == M){
             printArray();
