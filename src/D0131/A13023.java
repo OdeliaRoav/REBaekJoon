@@ -32,6 +32,7 @@ public class A13023 {
             A[b].add(a);
 
         }
+        
         for(int i = 0; i < N; i++) {
             DFS(i, 1);
             if(arrive){
