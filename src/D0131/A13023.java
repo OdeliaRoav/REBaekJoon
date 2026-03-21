@@ -33,7 +33,6 @@ public class A13023 {
 
         }
 
-
         for(int i = 0; i < N; i++) {
             DFS(i, 1);
             if(arrive){
