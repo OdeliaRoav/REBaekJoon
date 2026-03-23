@@ -33,7 +33,6 @@ public class A9663 {
                 backtracking(length+1);
             }
         }
-
     }
     static boolean check(int length) {
         for(int i = 0; i<length;i++) {
