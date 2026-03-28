@@ -34,6 +34,7 @@ public class A9663 {
             }
         }
     }
+
     static boolean check(int length) {
         for(int i = 0; i<length;i++) {
             if(A[i]==A[length]) return false;
