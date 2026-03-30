@@ -20,7 +20,6 @@ public class B10093 {
             for(long i = s_num +1; i<f_num; i++){
                 System.out.print(i + " ");
             }
-
         }
         else if(s_num > f_num){
             cal = s_num - f_num;
