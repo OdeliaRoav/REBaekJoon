@@ -21,6 +21,7 @@ public class B10093 {
                 System.out.print(i + " ");
             }
         }
+
         else if(s_num > f_num){
             cal = s_num - f_num;
             System.out.println(cal - 1);
