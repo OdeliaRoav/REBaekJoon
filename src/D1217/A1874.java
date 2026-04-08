@@ -13,6 +13,7 @@ public class A1874 {
 
         int N = Integer.parseInt(st.nextToken());
         
+        
         int next = 1;
         boolean flag = true;
         Stack<Integer> stack = new Stack<>();
