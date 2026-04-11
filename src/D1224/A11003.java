@@ -30,7 +30,6 @@ public class A11003 {
         }
         bw.flush();
 
-
     }
     static class Node{
         int value;
